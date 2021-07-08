@@ -11,3 +11,8 @@ alcoCalk2
 формула расчета stage
 
      градус*объем/вес/(возраст если меньше 27)(54-возраст если 27<=возраст<54)  
+
+
+
+
+reportgenerator -reports:E:\alcoCalk2\alcoCalc2.Tests\TestResults\Guid\coverage.cobertura.xml -targetdir:E:\alcoCalk2 -reporttypes:Html -classfilters:-alcoCalk2.Startup;-alcoCalk2.Program
